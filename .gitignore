@@ -1,0 +1,33 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datasets and generated data
+data/
+*.parquet
+*.csv
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+backups/
+backup_v1/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Logs and system files
+*.log
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
